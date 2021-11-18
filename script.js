@@ -344,8 +344,10 @@ function saveData(){
 function loadData(){
 	data = JSON.parse(localStorage.getItem("data"));
 	
-	if(!data)//if data is undefined
+	if(!data){//if data is undefined
 		data = {};
+		data[`${activeMonth}.${activeWeek}.${activeYear}`] = [[],[],[],[],[],[],[]];
+	}
 	
 	clearParagraphs();
 	setParagraphs(data[`${activeMonth}.${activeWeek}.${activeYear}`]);
