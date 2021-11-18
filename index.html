@@ -1,0 +1,118 @@
+<html>
+	<head>
+		<link rel = "stylesheet" href = "style.css">
+		<title>planner</title>
+	</head>
+	<body>
+		<div class>
+			<section class = "headingRow inlineblock">
+				<h2>Monday</h2>
+				<h2>Tuesday</h2>
+				<h2>Wednesday</h2>
+				<h2>Thursday</h2>
+				<h2>Friday</h2>
+				<h2>Saturday</h2>
+				<h2>Sunday</h2>
+			</section>
+			<section class = "flex">
+				<section class = "col" id = "c1">
+					<div class = "adder" onclick="addText(1)"></div>
+				</section>
+				<section class = "col" id = "c2">
+					<div class = "adder" onclick="addText(2)"></div>
+				</section>
+				<section class = "col" id = "c3">
+					<div class = "adder" onclick="addText(3)"></div>
+				</section>
+				<section class = "col" id = "c4">
+					<div class = "adder" onclick="addText(4)"></div>
+				</section>
+				<section class = "col" id = "c5">
+					<div class = "adder" onclick="addText(5)"></div>
+				</section>
+				<section class = "col" id = "c6">
+					<div class = "adder" onclick="addText(6)"></div>
+				</section>
+				<section class = "col" id = "c7">
+					<div class = "adder" onclick="addText(7)"></div>
+				</section>
+			</section>
+		</div>
+		<div>
+			<div id = "calendar" class ="bordered inlineblock">
+				<div>
+					<button onclick="monthPage(-1)"><</button>
+					<p id="month">January</p>
+					<button onclick="monthPage(1)">></button>
+				</div>
+				<section>
+					<p>M</p>
+					<p>T</p>
+					<p>W</p>
+					<p>R</p>
+					<p>F</p>
+					<p>S</p>
+					<p>S</p>
+				</section>
+				<section id="r1" class = "week">
+					<p></p>
+					<p></p>
+					<p></p>
+					<p></p>
+					<p></p>
+					<p></p>
+					<p></p>
+				</section>
+				<section id="r2" class = "week">
+					<p></p>
+					<p></p>
+					<p></p>
+					<p></p>
+					<p></p>
+					<p></p>
+					<p></p>
+				</section>
+				<section id="r3" class = "week">
+					<p></p>
+					<p></p>
+					<p></p>
+					<p></p>
+					<p></p>
+					<p></p>
+					<p></p>
+				</section>
+				<section id="r4" class = "week">
+					<p></p>
+					<p></p>
+					<p></p>
+					<p></p>
+					<p></p>
+					<p></p>
+					<p></p>
+				</section>
+				<section id="r5" class = "week">
+					<p></p>
+					<p></p>
+					<p></p>
+					<p></p>
+					<p></p>
+					<p></p>
+					<p></p>
+				</section>
+				<section id="r6" class = "week">
+					<p></p>
+					<p></p>
+					<p></p>
+					<p></p>
+					<p></p>
+					<p></p>
+					<p></p>
+				</section>
+				
+			</div>
+		</div>
+	</body>
+
+
+	<script src = "script.js"></script>
+</html>

@@ -1,0 +1,76 @@
+h2{
+	display: inline-block;
+	font-size: 20px;
+	width: 170px;
+}
+
+div.adder{
+	border: 1px solid black;
+	height: 100%;
+	height: 30px;
+	transition: background-color 0.1s;
+	width: 170px;
+}
+
+div.adder:hover{
+	background-color: lightblue;
+}
+
+section.col {
+	display: inline-block;
+}
+
+p{
+	text-overflow: ellipsis;
+	max-width: 20ch;
+	overflow: hidden;
+}
+
+.bordered {
+	border: 1px solid black;
+}
+
+.inlineblock{
+	display: inline-block;
+}
+
+.block{
+	display: block;
+}
+
+.flex{
+	display: flex;
+}
+
+#caldendar{
+	position: sticky;
+	top: 0;
+
+}
+
+#calendar > section{
+	display: flex;
+	justify-content: space-between;
+	width: 180px;
+}
+
+#calendar > section.week{
+	transition: background-color 0.1s;
+}
+
+#calendar > section.week:hover{
+	background-color: lightblue!important;
+}
+
+#calendar > section > p{
+	font-size: 10px;
+}
+
+body{
+	display: flex;
+}
+
+#calendar > div{
+	display: flex;
+	justify-content: space-evenly;
+}
