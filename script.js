@@ -125,7 +125,6 @@ function remove(elem){
 function edit(elem){
 	let text = elem.innerHTML;
 	let day = parseInt(elem.parentElement.id.slice(-1));
-	console.log(day);
 	remove(elem);
 	addText(day, text);
 }
@@ -325,7 +324,6 @@ function updateColor(color){
 
 function updateHeadingDates(){
 	let monday = activeWeek;
-	console.log(monday);
 	let headings = document.querySelector(".headingRow").children;
 	let monthLength = daysInMonth(activeMonth);
 
