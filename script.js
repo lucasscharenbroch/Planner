@@ -343,6 +343,10 @@ function saveData(){
 
 function loadData(){
 	data = JSON.parse(localStorage.getItem("data"));
+	
+	if(!data)//if data is undefined
+		data = {};
+	
 	clearParagraphs();
 	setParagraphs(data[`${activeMonth}.${activeWeek}.${activeYear}`]);
 }
