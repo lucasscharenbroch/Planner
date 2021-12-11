@@ -30,6 +30,7 @@ div.adder:hover{
 section.col {
 	display: inline-block;
 	width: 100%;
+	margin: 2px;
 }
 
 p{
