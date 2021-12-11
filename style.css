@@ -1,15 +1,26 @@
 h2{
 	display: inline-block;
 	font-size: 20px;
-	width: 170px;
+}
+.main{
+	width: 85%;
+}
+
+.main > section{
+	width: 100%;
+}
+
+.headingRow {
+	display: flex;
+	justify-content: space-around;
 }
 
 div.adder{
 	border: 1px solid black;
 	height: 100%;
 	height: 30px;
+	width: 100%;
 	transition: background-color 0.1s;
-	width: 170px;
 }
 
 div.adder:hover{
@@ -18,6 +29,7 @@ div.adder:hover{
 
 section.col {
 	display: inline-block;
+	width: 100%;
 }
 
 p{
